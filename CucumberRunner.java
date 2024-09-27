@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 //default publish attribute valuse is false,if we set as true it will create report
 //default monochrome attribute value is false,if we set as true it will show clear error logs
 
-@CucumberOptions(features= {"src/test/java/FeatureFiles/SalesforceAccount.feature"},
+@CucumberOptions(features= {"src/test/java/FeatureFiles/SalesForceAccountDynamic.feature"},
 glue= {"StepDefinitionHA"},
 publish=true,
 monochrome=true)
